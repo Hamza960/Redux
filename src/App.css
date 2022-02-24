@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Titillium+Web:wght@300&display=swap');
+
+.navbar{
+  background-color: white !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navbar-nav{
+  float: right !important;
+  margin-left: 600px;
+}
+
+.nav-item{
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  color: #012d5e;
+  font-weight: bold;
+}
+
+.dark-blue-box{
+  background-color: #012d5e;
+  color: white;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.light-blue-box{
+  background-color: #0080db;
+  color: white;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.dark-text{
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.light-text{
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.input{
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.form{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+/* About Us css */
+
+.about{
+  width: 100%;
+  
+}
+
+.img-box{
+  border: 3px solid #012d5e;
+  padding: 10px;
+  border-radius: 20px;
+  height: 300px;
+  
+}
+
+/* Contact Us css */
+
+.contactus{
+  background-image: url('../public/contactus.jpg');
+  background-size: cover;
+}
+
+.input{
+  background-color: transparent;
+  height: 70px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px !important;
+  border-bottom: 3px solid #012d5e;
+}
+
+.submit{
+  background-color: transparent;
+  padding: 5px 30px;
+  border: 3px solid #012d5e;
+  margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.submit:hover{
+  background-color: #012d5e;
+  color: white;
+  transition: 0.5s;
+}
+
+.footer-note{
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  margin-top: 60px; 
+  color: #012d5e;
+}
+
+/* No Page Css */
+
+.nopage{
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 60px;
+  color:#012d5e;
+}
+
+.nopage-container{
+  margin-top: 200px;
+}
+
+#vaccine-button{
+  float: right;
+}
+
+.search-input{
+  margin-bottom: 10px !important;
+  border: 3px solid #012d5e;
+}
+
+.person-container{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  color:#012d5e
+}
+
+.person-btn{
+  background-color: #012d5e;
+  border: 1px solid #012d5e;
+  border-radius: 10px;
+  padding: 10px 15px;
+  color: white
+}
+
+.vaccine-title{
+  color:#012d5e;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.form-title{
+  color:#012d5e;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.delete{
+  background-color: transparent;
+  border: none;
+}
+
+.trash-icon{
+  color: rgb(139, 11, 11);
+}
+
+@media (max-width: 790px) {
+        .img-box{
+          height: 350px;
+        }
+
+        #box-2{
+          margin-top: 15px;
+        }
+
+        #vaccine-button{
+          width: 100%;
+          margin-bottom: 50px;
+        }
+    }
